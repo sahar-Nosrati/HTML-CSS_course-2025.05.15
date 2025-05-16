@@ -1,0 +1,38 @@
+- CSS?
+  - CSS stands for Cascading Style Sheets
+  - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+  - CSS saves a lot of work. It can control the layout of multiple web pages all at once
+  - External stylesheets are stored in CSS files
+
+
+- solved problem by css -> 
+  - HTML was NEVER intended to contain tags for formatting a web page!
+  - HTML was created to describe the content of a web page, 
+  - CSS removed the style formatting from the HTML page!
+
+-  structure of css -> 
+  - selector -> h1, h2 etc
+  - declaration block -> {property:value; property:value}
+
+- A CSS selector selects the HTML element(s) you want to style. 
+- classification of selectors -> 
+  - Simple selectors (select elements based on name, id, class)
+  - Combinator selectors (select elements based on a specific relationship between them)
+  - Pseudo-class selectors (select elements based on a certain state)
+  - Pseudo-elements selectors (select and style a part of an element)
+  - Attribute selectors (select elements based on an attribute or attribute value)
+
+- universal selector (*) -> select all elements in HTML script
+
+- simple selectors -> 
+  - name -> based name element(s)
+  - class -> based class name -> several elements can contain same class name -> select specified element -> 
+    - name of elemenr(for example p).class name -> p.className
+  - id -> based id name -> single element can contain id name -> select id -> 
+    - #id name -> #idName
+
+
+- grouping selectors -> the elements with the same declaration block -> use grouping selectors ->
+  - h1,h2 {}
+
+ boarder(border-width, border-style, and border-color)

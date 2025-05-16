@@ -1,0 +1,255 @@
+- hyprtlink in html -> 
+  - <a href="link">Explanation</a> -> simp,le hyperlink 
+  - <a href="html_images.asp" target="_blank">HTML Images</a> -> HTML attribute to make the link open in a new window
+  - <a href="html_images.asp" ><img src="smiley.gif"></a>-> make the image become a link to "default.html"
+  - <a href="html_images.asp" title="Home">HTML Images</a>-> Add a "tooltip" to the link. The "tooltip" should say "Home".
+
+
+- HTML -> 
+  - HTML stands for Hyper Text Markup Language
+  - HTML is the standard markup language for creating Web pages
+  - HTML describes the structure of a Web page
+  - HTML consists of a series of elements
+  - HTML elements tell the browser how to display the content
+  - HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+explanation of simple HTML document -> 
+  - The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+  - The <html> element is the root element of an HTML page
+  - The <head> element contains meta information about the HTML page
+  - The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+  - The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+
+- HTML element -> An HTML element is defined by a start tag, some content, and an end tag
+- point -> Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+- note -> Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag! 
+
+- <!DOCTYPE html> declaration -> present the type of the page and helps browser to display web page correctly. It appers once at top of the script 
+
+- Attributes are used to provide additional information about HTML elements.
+- <img src="" alt="">
+- HTML tags are not case sensitive: <P> means the same as <p>.
+- HTML attributes provide additional information about HTML elements.
+- The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+
+- specify the URL in the src attribute:
+  -  Absolute URL - Links to an external image that is hosted on another website
+  -  Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name.
+
+- Attributes -> 
+  - All HTML elements can have attributes
+  - Attributes provide additional information about elements
+  - Attributes are always specified in the start tag
+  - Attributes usually come in name/value pairs like: name="value"
+
+- href attribute -> The <a> tag defines a hyperlink. The href attribute provides us specified the URL that our page  goes to this link 
+- src attribute -> The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed
+- The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)
+- The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed
+
+- lang attribute inside the <html> tag ->  to declare the language of the Web
+- points -> Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+- title attribute -> some extra information about an element
+
+- best practice for attribute ->
+  - to lowecase
+  - inside single or duble qutes (double qutes is better)
+
+- HTML headings are defined with the <h1> to <h6> tags.
+- Search engines use the headings to index the structure and content of your web pages.
+
+- A paragraph always starts on a new line, and is usually a block of text.
+- <hr> element is used to separate content (or define a change) in an HTML page  (hr -> horizontal rules)
+- <br> element defines a line break
+- <pre> -> fixed-width font (usually Courier), and it preserves both spaces and line breaks
+
+- style attribute -> add styles to an element, such as color, font, size, and more -> syntax -> 
+  - <tagname style="property:value;">
+
+- Formatting elements were designed to display special types of text -> 
+  - <b> - Bold text -> defines bold text, without any extra importance
+  - <strong> - Important text -> efines text with strong importance. The content inside is typically displayed in bold
+  - <i> - Italic text -> defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic
+  - <em> - Emphasized text -> defines emphasized text. The content inside is typically displayed in italic.
+  - <mark> - Marked text -> defines text that should be marked or highlighted
+  - <small> - Smaller text -> defines smaller text
+  - <del> - Deleted text -> defines text that has been deleted from a document. Browsers will usually strike a line through deleted text
+  - <ins> - Inserted text -> defines a text that has been inserted into a document. Browsers will usually underline inserted text 
+  - <sub> - Subscript text -> defines subscript text
+  - <sup> - Superscript text -> defines superscript text 
+  - <blockquote> -> defines a section that is quoted from another source
+  - <q> -> </q>defines a short quotation
+  - <abbr title=""> -> defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM" -> POINT -> 
+    - use title attribute provides information of abbraviation/avronomy when you mouse hover on it
+  - <address> -> defines the contact information for the author/owner of a document or an article
+  - <cite> -> defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.)
+  - <bdo dir="rtl"> (Bidirectional Override) -> is used to override text directionality
+
+- HTML comments are not displayed in the browser, but they can help document your HTML source code
+- comment in HTML -> <!-- your comment-->
+
+- colors in HTML -> RGB, HEX, HSL, RGBA, or HSLA values
+  - RGB color format -> combination of Red,Green,Blue  -> rgb(red, green, blue) -> intensity of the color -> value between 0 and 255.
+  - HEX format -> #9947bb -> #RRGGBB, where the RR (red), GG (green) and BB (blue)
+  - HSL ->
+  - RGBA FORMAT -> add an Alpha channel to the color 
+  - HSLA -> add an Alpha channel to the color 
+
+- The alpha channel specifies to opacity of a ( <color> ) 
+
+- RGB -> rgb(255,0,0) 
+- RGB -> rgb(0,255,0) 
+- RGB -> rgb(0,0,255) 
+- RGB -> rgb(255,255,0) 
+- RGB -> rgb(255,255,255) 
+- RGB -> rgb(36, 36, 224) 
+  
+- RgbA color -> are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color
+- rgba(red, green, blue, alpha) ->
+  - alpha -> 
+    - 0 maximum transparency 
+    - 1 minimum transparency 
+
+- Hex -> rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255) ->
+  -  #9947bb 
+  -  #cc90bb 
+  -  #47bb60 
+  -  #99eebb 
+  -  #ee4760 
+  -  #ff0000 
+  -  #00ff60 
+  -  #0000ff 
+  -  #ee47ff 
+  -  #0047ff 
+  -  #5050ab 
+
+- HSL -> HSL stands for hue, saturation, and lightness.
+- HSLA color values are an extension of HSL with an Alpha channel (opacity).
+
+- hsl(hue, saturation, lightness) -> 
+  - Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+  - Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color. -> 
+    - described as the intensity of a color.
+  - Lightness is also a percentage value. 0% is black, and 100% is white.
+    - described as how much light you want to give the color 
+
+- hsl -> 
+  -  hsl(120, 50%, 75%) 
+  -  hsl(0, 100%, 30%) 
+  -  hsl(0, 50%, 90%) 
+  -  hsl(240, 60%, 75%) 
+  -  hsl(120, 30%, 60%) 
+  -  hsl(240, 50%, 40%) 
+  -  hsl(180, 40%, 50%) 
+  -  hsla(180, 40%, 60%, 0.5) 
+
+- Shades of gray  -> 
+  - hue -> 0 
+  - saturation -> 0% 
+  - lightness -> 0-100% -> darker-lighter 
+
+- hsla -> HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color
+  - hsla(hue, saturation, lightness, alpha)
+  -  hsla(0, 0.00%, 50.20%, 0.38) 
+
+
+- CSS -> stands for cascading style sheet -> to format the layout of a webpage 
+- Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent.
+
+- addition CSS to HTML -> 
+  - Inline - by using the style attribute inside HTML elements -> 
+    - is used to apply a unique style to a single HTML element
+  - Internal - by using a <style> element in the <head> section -> 
+    - An internal CSS is used to define a style for a single HTML page
+    - defined in the <head> section of an HTML page, within a <style> element
+  - External - by using a <link> element to link to an external CSS file
+    - An external style sheet is used to define the style for many HTML pages
+    - To use an external style sheet, add a link to it in the <head> section of each HTML page with "rel" and "href" attributes
+
+- css boarder property -> defines a border around an HTML element
+- css padding -> defines padding (space) between the text and the border
+- css margine -> defines a margin (space) outside the border. 
+
+- linked to external css -> 
+  - reference with a full URL -> absolute URL 
+  - with a path relative to the current web page
+
+- HTML links -> 
+  - HTML links are hyperlinks
+  - <a> tag defines a hyperlink -> structure -> <a href="url">link text</a> -> 
+    - the href attribute, which indicates the link's destination
+
+- format of links -> 
+  - An unvisited link is underlined and blue
+  - A visited link is underlined and purple
+  - An active link is underlined and red
+
+- Opening the link -> open in current page -> to change current page -> use target attribute -> The target attribute specifies where to open the linked document -> 
+  - _self - Default. Opens the document in the same window/tab as it was clicked
+  - _blank - Opens the document in a new window or tab
+  - _parent - Opens the document in the parent frame
+  - _top - Opens the document in the full body of the window
+
+- URLs -> 
+  - absolute URL ->  a full web address in the href attribute
+  - relative URL -> A local link (a link to a page within the same website) without ("https://www" part)
+
+- Use an Image as a Link -> just put the <img> tag inside the <a> tag instead of text 
+- add link to button -> add jvaScript functionality (event to button) -> 
+  - <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+- title attribute -> specifies extra information about an element -> 
+  - The information is most often shown as a tooltip text when the mouse moves over the element
+
+- link css property -> 
+  a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+- Bookmarks can be useful if a web page is very long. 
+- create bookmark -> 
+  - create bookmark (maybe by id)
+  - add link to this bookmark (id by # in href attribute)
+
+- The HTML <img> tag is used to embed an image in a web page.
+- <img> tag main attributes -> 
+  - src -> refernce to image path (absolute URL or relative url)
+  - alt -> explanation about picture
+
+- The width and height attributes always define the width and height of the image in pixels.
+- Use the CSS float property to let the image float to the right or to the left of a text
+
+- With HTML image maps, you can create clickable areas on an image.
+- HTML <map> tag -> create clickable area on an image -> create area ->
+  - areas -> defines one or more <area> 
+
+- create image map steps -> 
+  - create name usemap for img -> it should be defined by #
+  - create map  with attribute of name -> 
+    <map name=""> -> usemap name will be used without # -> 
+    - create area tag -> <area shape = "" coords="" alt="" href="">
+    - create area tag -> <area shape = "" coords="" alt="" href="">
+    - create area tag -> <area shape = "" coords="" alt="" href="">
+    </map>
+
+- coords="" -> for circle -> coordinate of center (distance from left margin, distance from top margin), radious -> example -> (120, 25, 15)
+- coords="" -> for rect -> coordinate of first point in top of shape (distance from left margin, distance from top margin), coordinate of second point in button of shape (distance from left margin, distance from top margin) -> example (50, 120, 200, 50)
+- coords="" -> for rect -> coordinate of first point in top of shape (distance from left margin, distance from top margin), coordinate of second point in button of shape (distance from left margin, distance from top margin) -> example (50, 120, 200, 50)
+
+- body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; -> to be sure the background image will cover the entire element, with no stretching 
+  background-size: cover;
+}
+
+
+- Reasons for usage of <picture> </picture> ->
+  - 1. Bandwidth -> in small screen and device -> browser will select first <source> with appropriate attribute and ignores other source 
+  - 2. Format Support -> browser or devices can not support image format -> possibility addition images with different formats browser will use the first format, and ignore any of the following elements. 
